@@ -1,8 +1,8 @@
 # AktivBo arbetstest fullstack - backend
 
 ## Utvecklades i
-- PHP 7.1
-- Mysql 5.7.25
+- PHP 7.3.9
+- MariaDB 10.4.6
 - Bootstrap
 - jQuery
 - Html/Css
