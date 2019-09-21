@@ -37,7 +37,7 @@ $app['lang'] = 'sv';
 /**
  * Settings for the database.
  */
-$app['database']['dsn']            = 'mysql:unix_socket=/Applications/MAMP/tmp/mysql/mysql.sock;dbname=aktivbo;user=root;password=root';
+$app['database']['dsn']            = 'mysql:host=127.0.0.1;dbname=aktivbo';
 $app['database']['username']       = 'root';
-$app['database']['password']       = 'root';
+$app['database']['password']       = '';
 $app['database']['driver_options'] = array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'UTF8'");
